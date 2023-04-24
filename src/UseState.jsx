@@ -74,7 +74,7 @@ export function UseState(props) {
 
         if (state.cargando) {
             setTimeout(() => {
-                console.log('TROLA');
+                console.log('validacion');
 
                 if (state.value === CODIGO_SEGURIDAD) {
                     onConfirm();
@@ -82,7 +82,7 @@ export function UseState(props) {
                     onError();
                 }
 
-                console.log('TROLA HACIENDOSE');
+                console.log('validacion terminada');
             }, 2000)
         }
 
