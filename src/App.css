@@ -1,4 +1,16 @@
 .App{
   text-align: center;
   color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn{
+  margin: 1rem;
+}
+
+.div-use{
+  display: table-column;
+  text-align: left;
+
 }

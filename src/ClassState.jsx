@@ -28,7 +28,7 @@ export class ClassState extends React.Component{
                 console.log('Validando...');
 
                 if (this.state.value === CODIGO_SEGURIDAD) {
-                    this.setState({cargando : false});
+                    this.setState({cargando : false, error : false});
                 } else {
                     this.setState({error : true, cargando : false});
                 }
